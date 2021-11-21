@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Responsive Navigation</title>
+</head>
+
+<body>
+  <header class="site-head flex">
+    <div class="logo">
+      <p>Logo</p>
+    </div>
+
+    <!-- 
+      * aria-controls: look for id and take control of that element
+      * aria-expanded: defines if current element that is in control, expanded or collapsed
+      -->
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+      <span class="visually-hidden">Menu</span>
+    </button>
+
+    <nav>
+      <ul id="primary-navigation" class="primary-navigation flex" data-visible="false">
+        <li class="active">
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Destination</a>
+        </li>
+        <li>
+          <a href="#">Crew</a>
+        </li>
+        <li>
+          <a href="#">Technology</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <script defer src="./scripts/index.js"></script>
+</body>
+
+</html>
