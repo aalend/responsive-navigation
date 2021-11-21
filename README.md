@@ -1,6 +1,6 @@
 # Responsive Navigation bar with HTML CSS and JavaScript
 
-This is just a idea from Kevin Powell on how to build mobile navigation that will work on all screens. It is also accessible for screen readers and mobile first approach. I take the idea and adapt it for my own scenarios, and save it here so I don't need to build it from scratch everytime when I need it. Be aware that this is just an idea and it's not perfect solution.
+This is just a idea from Kevin Powell on how to build mobile navigation that will work on all screens. It is also accessible for screen readers and has mobile first approach. I take the idea and adapt it for my own scenarios, and save it here so I don't need to build it from scratch everytime when I need it. Be aware that this is just an idea and it's not perfect solution.
 
 If you want to watch original video you can check it on [this link here](https://www.youtube.com/watch?v=Ab9pHqhsfcc) that will lead you to Kevin Powell YouTube channel.
 
